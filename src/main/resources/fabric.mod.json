@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "visiblesky",
+	"version": "${version}",
+	"name": "VisibleSky",
+	"description": "Adds a few resource packs that add borders around the Sky block because it's too hard to see it.",
+	"authors": [
+		"ExiledPomegranate"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "MIT",
+	"icon": "assets/visiblesky/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.exiledpomegranate.VisibleSky"
+		],
+		"client": [
+			"com.exiledpomegranate.VisibleSkyClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.12",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
