@@ -12,5 +12,6 @@ public class VisibleSky implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+
 	}
 }
